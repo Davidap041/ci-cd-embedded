@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Set execute permissions for configure script
+      run: chmod +x configure
     - name: configure
       run: ./configure
     - name: make
