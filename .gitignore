@@ -6,3 +6,4 @@
 *.dll
 *.dylib
 hellomake
+test/build/

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  madsciencelab:
+    image: throwtheswitch/madsciencelab    
+    # command: /project/lin_run.sh
+    command: sh
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/project
