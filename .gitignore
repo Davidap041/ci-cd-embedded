@@ -1,0 +1,8 @@
+# Ignore compiled files for C
+*.o
+*.out
+*.exe
+*.so
+*.dll
+*.dylib
+hellomake
